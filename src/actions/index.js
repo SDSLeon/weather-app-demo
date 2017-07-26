@@ -1,6 +1,6 @@
 import { CALL_API } from '../middleware/api'
 
-const coreUrl = 'http://api.openweathermap.org/data/2.5';
+const coreUrl = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5';
 const appId = 'fc99fdc7230e1d15511852a473f65e55';
 const getLocationString = (lat, long) => `lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(long)}`
 
