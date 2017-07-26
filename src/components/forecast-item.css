@@ -1,0 +1,21 @@
+.forecast-item {
+    height: 100%;
+    width: 140px;
+    padding: 0 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.fi-temp {
+    display: flex;
+    align-items: flex-end;
+}
+
+.fi-temp-min {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.fi-temp-max {
+    font-size: 22px;
+}

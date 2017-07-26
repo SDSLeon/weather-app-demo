@@ -1,0 +1,46 @@
+.current-weather {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px;
+    z-index: 2;
+}
+
+.cw-city {
+    font-size: 25px;
+}
+
+.cw-temp {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.cw-condition {
+    font-size: 17px;
+}
+
+.cw-condition:first-letter {
+    text-transform: uppercase;
+}
+
+.cw-other {
+    display: flex;
+    padding: 10px;
+    width: 450px;
+    padding-left: 50px;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+
+.cw-other > div {
+    flex: 1 0 33%;
+    display: flex;
+    align-items: center;
+}
+
+.other-wind > svg {
+    transform: scale(0.9);
+    padding-top: 3px;
+    padding-left: 3px;
+}
